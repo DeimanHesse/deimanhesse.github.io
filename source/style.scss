@@ -1,0 +1,169 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+
+.container {
+	width: 1720px;
+	margin: 0 auto;
+}
+
+.header__inner {
+	padding: 20px 0;
+	display: flex;
+	justify-content: space-between; 
+	.burger-logo a {
+		margin-right: 40px;
+
+	}
+	.header__menu a {
+		font-family: HelveticaNeueCyr;
+		font-style: normal;
+		font-weight: 900;
+		font-size: 12px;
+		line-height: 22px;
+		text-transform: uppercase;
+		color: #000;
+		margin-left: 30px;
+	}
+		
+	.header__menu a:hover {
+			background: red;
+		}
+}
+
+
+
+
+
+.banner__inner {
+	display: flex;
+	position: relative;
+}
+
+
+.banner__titles {
+	background: #fff;
+	width: 542px;
+	height: 227px;
+	padding: 40px 30px;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+
+	h1 {
+		font-family: HelveticaNeueCyr;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 36px;
+		line-height: 36px;
+		text-transform: uppercase;
+		color: #000000;
+		margin-bottom: 30px;
+	}
+
+	h5 {
+		font-family: HelveticaNeueCyr;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 18px;
+		color: #000000;
+
+	}
+
+}
+
+.offers {
+	position: relative;
+	
+	height: 1200px;
+
+}
+
+.offers__img3 {
+	position: absolute;
+	right: 0;
+	top: -200px;
+}
+
+.offers__inner {
+	position: relative;
+	margin-top: 190px;
+	
+}
+
+.offers__titles {
+	padding: 30px 20px;
+ 	max-width: 540px;
+	h1 {
+		font-family: HelveticaNeueCyr;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 60px;
+		line-height: 60px;
+		letter-spacing: -0.1em;
+		color: #000000;
+		margin-bottom: 30px;
+
+	}
+
+	p {
+		max-width: 390px;
+		font-family: HelveticaNeueCyr;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 22px;
+		color: #000000;
+	}
+}
+
+.offers__img1 {
+	position: absolute;
+	top:0;
+	left: 400px;
+	z-index: -10;
+}
+
+.offers__img2 {
+	position: absolute;
+	top:190;
+	right: 200px;
+	z-index: -10;
+}
+
+
+.block_2 {
+	position: absolute;
+	right: 0;
+	top: 800px;
+}
+
+
+.offers2__inner {
+	position: relative;
+}
+
+.offer2__img1 {
+	position: absolute;
+	top: 0;
+	left: 250px;
+	z-index: -10;
+}
+
+
