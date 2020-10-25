@@ -99,7 +99,7 @@ font-size: 20px;
 
 
 
-@media screen and (max-width: 620px){
+@media screen and (max-width: 720px){
 
 .stat__item {
   width: 40%;
@@ -117,9 +117,5 @@ font-size: 20px;
   text-align: left;
   font-size: 14px;
 }
-
-
- 
-
 
 }
