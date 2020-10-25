@@ -1,0 +1,136 @@
+@media screen and (max-width: 900px){
+
+.about__text {
+ width: 100%;
+ text-align: center;
+  margin-bottom: 50px;
+  padding: 50px 30px;
+}
+
+.about__text p {
+  margin: 0 auto;
+  max-width: 585px;
+
+}
+
+.about__img {
+ width: 100%
+}
+
+.about__content {
+flex-wrap: wrap;
+}
+
+.workprocess__items {
+  flex-wrap: wrap;
+}
+}
+
+
+@media screen and (max-width: 720px){
+
+/*------------HEADER-------------------*/
+.nav {
+  display: none;
+}
+
+
+
+/*-----------------ABOUT US----------------*/
+.about__text p {
+  font-size: 24px;
+}
+/*-----------------SKILLS----------------*/
+
+.skills__text p {
+  font-size: 24px;
+}
+
+/*-----------------WORKS----------------*/
+.works__item {
+width: 50%;
+
+}
+
+.works__titles p {
+font-size: 24px;
+margin-bottom: 60px;
+}
+
+/*--------OUR WORK PROCESS--------*/
+.workprocess__titles p {
+font-size: 24px;
+}
+
+
+.item__titles h1 {
+font-size: 50px;
+text-align: center;
+
+}
+
+.item__titles p {
+ font-size: 24px; 
+}
+
+.workprocess__item {
+  width: 90%;
+}
+
+/*-----------CUSTOMERS ABOUT US--------------*/
+.customers__text_1 {
+font-size: 24px;
+}
+.customers__text_2 {
+font-size: 24px;
+}
+
+/*----------CONTACT US---------*/
+.contact__title p {
+ font-size: 24px; 
+} 
+
+.form_inputs {
+  flex-wrap: wrap;
+}
+
+.form_inputs-item {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.form_inputs input {
+  font-size: 20px;
+}
+}
+
+
+
+@media screen and (max-width: 520px){
+
+
+
+.stat__item {
+  width: 400px;
+}
+
+.item__number {
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+  line-height: 300px;
+  font-size: 90px;
+}
+
+.item__suptitle {
+   font-size: 30px;
+   text-align: center;
+
+
+}
+
+
+ 
+
+
+}
