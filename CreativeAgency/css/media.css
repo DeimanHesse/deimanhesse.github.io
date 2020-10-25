@@ -34,22 +34,17 @@ flex-wrap: wrap;
   display: none;
 }
 
-
-
 /*-----------------ABOUT US----------------*/
 .about__text p {
   font-size: 24px;
 }
 /*-----------------SKILLS----------------*/
-
 .skills__text p {
   font-size: 24px;
 }
-
 /*-----------------WORKS----------------*/
 .works__item {
 width: 50%;
-
 }
 
 .works__titles p {
@@ -62,19 +57,17 @@ margin-bottom: 60px;
 font-size: 24px;
 }
 
-
 .item__titles h1 {
 font-size: 50px;
 text-align: center;
-
 }
 
 .item__titles p {
- font-size: 24px; 
+font-size: 24px; 
 }
 
 .workprocess__item {
-  width: 90%;
+width: 90%;
 }
 
 /*-----------CUSTOMERS ABOUT US--------------*/
@@ -87,20 +80,20 @@ font-size: 24px;
 
 /*----------CONTACT US---------*/
 .contact__title p {
- font-size: 24px; 
+font-size: 24px; 
 } 
 
 .form_inputs {
-  flex-wrap: wrap;
+flex-wrap: wrap;
 }
 
 .form_inputs-item {
-  width: 100%;
-  margin-bottom: 20px;
+width: 100%;
+margin-bottom: 20px;
 }
 
 .form_inputs input {
-  font-size: 20px;
+font-size: 20px;
 }
 }
 
@@ -108,25 +101,21 @@ font-size: 24px;
 
 @media screen and (max-width: 520px){
 
-
-
 .stat__item {
-  width: 400px;
+  width: 40%;
 }
 
-.item__number {
-  margin: 0 auto;
-  width: 300px;
-  height: 300px;
-  line-height: 300px;
-  font-size: 90px;
-}
+
+
 
 .item__suptitle {
-   font-size: 30px;
+   font-size: 20px;
    text-align: center;
+}
 
-
+.skills__text p {
+  text-align: left;
+  font-size: 14px;
 }
 
 
