@@ -125,7 +125,12 @@ font-size: 20px;
 
 
 @media screen and (max-width: 500px){
-.skills_stat {
-  justify-content: space-between;
+
+
+.item__number {
+  width: 100px;
+  height: 100px;
+  line-height: 93px;
+  font-size: 30px;
 }
 }
