@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+
+	<title>Document</title>
+</head>
+<body>
+<div class="wrapper">
+	<header class="header">
+		<div class="container header__container flex">
+
+			<button class="header__burger burger" aria-label="Open menu" >
+				<span class="burger__line"></span>
+				<span class="burger__line"></span>
+				<span class="burger__line"></span>
+			</button>
+
+
+
+			<a href="" class="header__logo">pizzahub</a>
+
+
+
+			<ul class="header__social social">
+				<li class="social__item">
+					<a href="#" class="social__link social__link--fb" aria-label="Go to facebook"></a>
+				</li>
+				<li class="social__item">
+					<a href="#" class="social__link social__link--tw" aria-label="Go to twitter"></a>
+				</li>
+
+			</ul>
+
+
+
+
+
+		</div>
+	</header>
+
+
+
+	
+	<div class="banner">
+		<div class="container">
+			<div class="banner__inner">
+				
+
+				<div class="slides flex">
+
+					<div class="slide active">
+						<div class="slide__inner flex">
+							<div class="titles">
+								<p>We deliver & feed you in <span class="title__color">60 minutes</span></p> 
+
+
+								<a href="#"><div class="banner__button">view menu ></div></a>
+							</div>
+							<div class="slide__img"><img src="img/slider-pizza-1.png"></div>
+						</div>
+					</div>
+
+
+					<div class="slide">
+						<div class="slide__inner flex">
+							<div class="titles">
+								<p>We deliver & feed you in <span class="title__color">60 minutes</span></p>
+
+								<a href="#"><div class="banner__button">view menu  ></div></a>
+							</div>
+							<div class="slide__img"><img src="img/slider-pizza-2.png"></div>
+						</div>
+					</div>
+
+					<div class="slide">
+						<div class="slide__inner flex">
+							<div class="titles">
+								<p>We deliver & feed you in <span class="title__color">60 minutes</span></p>
+
+								<a href="#"><div class="banner__button">view menu  ></div></a>
+							</div>
+							<div class="slide__img"><img src="img/slider-pizza-3.png"></div>
+						</div>
+					</div>
+
+					<div class="slide">
+						<div class="slide__inner flex">
+							<div class="titles">
+								<p>We deliver & feed you in <span class="title__color">60 minutes</span></p>
+
+								<a href="#"><div class="banner__button">view menu  ></div></a>
+							</div>
+							<div class="slide__img"><img src="img/slider-pizza-4.png"></div>
+						</div>
+					</div>
+
+					<div class="slide">
+						<div class="slide__inner flex">
+							<div class="titles">
+								<p>We deliver & feed you in <span class="title__color">60 minutes</span></p>
+
+								<a href="#"><div class="banner__button">view menu  ></div></a>
+							</div>
+							<div class="slide__img"><img src="img/slider-pizza-5.png"></div>
+						</div>
+					</div>
+
+					<div class="next_arrow flex">
+						<div class="button" id="btn-next">Next </div>
+						<img src="img/header/arrow.svg" alt="">
+					</div>
+				</div>
+				
+
+				<div class="dots">
+					<div class="dots flex">
+						<div class="dot active">1</div>
+						<div class="dot">2</div>
+						<div class="dot">3</div>
+						<div class="dot">4</div>
+						<div class="dot">5</div>
+					</div>
+				</div>
+
+
+				<script src="js/banner-script.js"></script>
+			</div>
+		</div>
+		
+	</div>
+
+	
+
+
+
+
+
+
+	<section class="offers">
+
+		<div class="container flex">
+			<div class="offer__titles">
+				<h5>Promotion</h5>
+				<h1>Special hot offers</h1>
+				<a class="flex" href="#"><h3>view more offers ></h3></a>
+			</div>     
+			<div class="btn btn1" id="prev"><img src="img/offers/arrow-next.svg" alt=""></div>
+			<div class="cheat">
+				<div class="active_item">
+					<div class="carousel-container">
+
+
+						<div class="carousel-slides flex">
+
+
+
+							<div id="lastClone" class="offer__slide">
+								<h1>Margherita</h1>
+								<img src="images/pizza-4.png" alt=""><h1>$10.55</h1> 
+							</div>
+
+							<div class="offer__slide">
+								<h1>Peperoni</h1> 
+								<img src="images/pizza-1.png" alt="">
+								<h1>$9.30</h1>  
+							</div>
+
+							<div class="offer__slide">
+								<h1>Italiano</h1> 
+								<img src="images/pizza-2.png" class="brain" alt=""> 
+								<h1>$9.50</h1> 
+							</div>
+
+
+							<div class="offer__slide">
+								<h1>Mexican</h1> 
+								<img src="images/pizza-3.png" alt="">
+								<h1>$10.10</h1> 
+							</div>
+
+
+							<div class="offer__slide" id="bebe">
+								<h1>Margherita</h1>
+								<img src="images/pizza-4.png" alt=""> 
+								<h1>$10.55</h1> 
+							</div>
+
+
+
+								<div id="firstClone" class="offer__slide">
+									<h1>Peperoni</h1>
+									<img src="images/pizza-1.png" alt="">
+									<h1>$9.30</h1>  </div>
+
+
+
+								<div class="offer__slide">
+										<h1>Italiano</h1>
+										<img src="images/pizza-2.png" alt="">
+										<h1>$9.50</h1> 
+									</div>
+
+
+									<div class="offer__slide">
+										<h1>Mexican</h1>
+										<img src="images/pizza-3.png" alt=""> <h1>$10.10</h1></div>
+										
+									</div>
+
+								</div>
+							</div>
+						</div>
+
+						<div class="btn btn2" id="next"><img src="img/offers/arrow-prev.svg" alt=""></div>
+						<script src="js/offer-script.js"></script>
+					</div>
+				</section>
+
+
+
+
+				<section class="aboutus flex">
+
+					<div class="aboutus__bg">
+						<div class="aboutus__img"><img src="img/abounus-img.jpg" alt=""></div>
+						<div class="line"></div>
+					</div>
+					
+					<div class="aboutus__text">
+						<h1>About PizzaNunt</h1>
+						<p>Lorem ipsum dolor, sit amet consectetur, adipisicing elit. Voluptatum, natus vero sint id aspernatur. Numquam debitis inventore, id facilis doloribus, delectus iusto unde, quas perspiciatis adipisci vero similique tenetur ducimus.</p>
+						<a href="#"><h5>we on social media ></h5></a>
+					</div>
+
+
+				</section>
+
+
+
+				<!---------------------MENU-------------------------->
+
+
+
+				<section class="menu">
+					<div class="container">
+						<div class="menu__inner">
+					<div class="menu__titles flex">
+							<h1>Menu</h1>
+							<div class="sort flex">
+							<h2>sort by:</h2>
+							<form action="">
+								<select name="" id="">
+									<option value="">Most popular</option>
+									<option value="">Price up</option>
+									<option value="">Price down</option>
+								</select>
+
+							</form>
+							</div>
+						</div>
+
+					<div class="menu__content flex">
+						<div class="menu__categories">
+
+						<div class="categories1">
+							<a class="categories__item" href="#">Vegetarian</a>
+							<a class="categories__item" href="#">Cheese</a>
+							<a class="categories__item" href="#">With sausage</a>
+							<a class="categories__item" href="#">With pizza</a>
+							<a class="categories__item" href="#">Unusual flavor</a>
+							<a class="categories__item" href="#">Drinks</a>
+						</div>
+
+						<div class="categories2">
+							<a class="categories__item" href="#">Vegetarian</a>
+							<a class="categories__item" href="#">Cheese</a>
+							<a class="categories__item" href="#">With sausage</a>
+							<a class="categories__item" href="#">With pizza</a>
+							<a class="categories__item" href="#">Unusual flavor</a>
+							<a class="categories__item" href="#">Drinks</a>
+						</div>
+
+						</div>
+
+
+					<div class="btn__menu btn__menu1" id="prev1"></div>
+
+
+					<div class="cheat2">
+
+						<div class="menu__slider1">
+
+							<div class="menu__carousel">
+
+								<div class="menu__block1 flex">
+									<div class="slider__item" id="lastClone">
+										<img src="img/menu-slider/pizza-4.png" alt="">
+										<h1>Peperoni Pizza</h1>
+										<p>Juicy ham, cheese,fresh olives,champignons</p>
+										<h1 class="price">$4.15</h1>
+										<div class="order">order</div>
+									</div>
+
+
+									<div class="slider__item">
+										<img src="img/menu-slider/pizza-1.png" alt="">
+										<h1>Italian with ham</h1>
+										<p>Juicy ham, cheese,fresh olives,champignons</p>
+										<h1 class="price">$4.15</h1>
+										<div class="order">order</div>
+									</div>
+
+									<div class="slider__item">
+										<img src="img/menu-slider/pizza-2.png" alt="">
+										<h1>With bavarian sausages</h1>
+										<p>Natural sausages, lightly saltet cucumbers, spicy </p>
+										<h1 class="price">$3.75</h1>
+										<div class="order">order</div>
+									</div>
+
+									<div class="slider__item">
+										<img src="img/menu-slider/pizza-3.png" alt="">
+										<h1>Peperoni Pizza</h1>
+										<p>Juicy ham, cheese,fresh olives,champignons</p>
+										<h1 class="price">$4.15</h1>
+										<div class="order">order 
+										</div>
+									</div>
+
+									<div class="slider__item">
+										<img src="img/menu-slider/pizza-4.png" alt="">
+										<h1>Peperoni Pizza</h1>
+										<p>Juicy ham, cheese,fresh olives,champignons</p>
+										<h1 class="price">$4.15</h1>
+										<div class="order">order
+										 
+									</div>
+									</div>
+
+
+									<div class="slider__item" id="firstClone">
+										<img src="img/menu-slider/pizza-1.png" alt="">
+										<h1>Italian with ham</h1>
+										<p>Juicy ham, cheese,fresh olives,champignons</p>
+										<h1 class="price">$4.15</h1>
+										<div class="order">order 
+										</div>
+									</div>
+
+									<div class="slider__item">
+										<img src="img/menu-slider/pizza-2.png" alt="">
+										<h1>With bavarian sausages</h1>
+										<p>Natural sausages, lightly saltet cucumbers,onions </p>
+										<h1 class="price">$3.75</h1>
+										<div class="order">order 
+										</div>
+									</div>
+
+									<div class="slider__item">
+										<img src="img/menu-slider/pizza-3.png" alt="">
+										<h1>Peperoni Pizza</h1>
+										<p>Juicy ham, cheese,fresh olives,champignons</p>
+										<h1 class="price">$4.15</h1>
+										<div class="order">order 
+										</div>
+									</div>
+
+								</div>
+
+								<div class="menu__block2 flex">
+
+									<div class="slider__item" id="lastClone">
+										<img src="img/menu-slider/pizza-4.png" alt="">
+										<h1>Peperoni Pizza</h1>
+										<p>Juicy ham, cheese,fresh olives,champignons</p>
+										<h1 class="price">$4.15</h1>
+										<div class="order">order 
+										</div>
+									</div>
+
+
+									<div class="slider__item">
+										<img src="img/menu-slider/pizza-1.png" alt="">
+										<h1>Italian with ham</h1>
+										<p>Juicy ham, cheese,fresh olives,champignons</p>
+										<h1 class="price">$4.15</h1>
+										<div class="order">order 
+										</div>
+									</div>
+
+									<div class="slider__item">
+										<img src="img/menu-slider/pizza-2.png" alt="">
+										<h1>With bavarian sausages</h1>
+										<p>Natural sausages, lightly saltet cucumbers, onions </p>
+										<h1 class="price">$3.75</h1>
+										<div class="order">order 
+										</div>
+									</div>
+
+									<div class="slider__item">
+										<img src="img/menu-slider/pizza-3.png" alt="">
+										<h1>Peperoni Pizza</h1>
+										<p>Juicy ham, cheese,fresh olives,champignons</p>
+										<h1 class="price">$4.15</h1>
+										<div class="order">order 
+										</div>
+									</div>
+
+									<div class="slider__item">
+										<img src="img/menu-slider/pizza-4.png" alt="">
+										<h1>Peperoni Pizza</h1>
+										<p>Juicy ham, cheese,fresh olives,champignons</p>
+										<h1 class="price">$4.15</h1>
+										<div class="order">order 
+										</div>
+									</div>
+
+
+									<div class="slider__item" id="firstClone">
+										<img src="img/menu-slider/pizza-1.png" alt="">
+										<h1>Italian with ham</h1>
+										<p>Juicy ham, cheese,fresh olives,champignons</p>
+										<h1 class="price">$4.15</h1>
+										<div class="order">order 
+										</div>
+									</div>
+
+									<div class="slider__item">
+										<img src="img/menu-slider/pizza-2.png" alt="">
+										<h1>With bavarian sausages</h1>
+										<p>Natural sausages, lightly saltet cucumbers, onions </p>
+										<h1 class="price">$3.75</h1>
+										<div class="order">order 
+										</div>
+									</div>
+
+									<div class="slider__item">
+										<img src="img/menu-slider/pizza-3.png" alt="">
+										<h1>Peperoni Pizza</h1>
+										<p>Juicy ham, cheese,fresh olives,champignons</p>
+										<h1 class="price">$4.15</h1>
+										<div class="order">order 
+										</div>
+
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+					<div class="btn__menu btn__menu2" id="next1"></div>
+
+					<script src="js/menu-script.js"></script>
+				</div>
+				</div>
+				</div>
+				</section>
+
+
+<!---------------------MEMORIES-------------------------->
+
+
+				<section class="memories flex">
+					<div class="container">
+						
+						<div class="memories__titles">
+							<h5>Clients about us</h5>
+							<h1>Best memories with us</h1>
+						</div>
+
+						
+
+					</div>
+
+					<div class="memories__img flex">
+							<img src="img/memories/memories-1.png" alt="">
+							<img src="img/memories/memories-3.png" alt="">
+							<img src="img/memories/memories-4.png" alt="">
+							<img src="img/memories/memories-2.png" alt="">
+						</div>
+				</section>
+
+
+
+				<section class="app">
+					<div class="app__bg">
+					<div class="container">
+						<div class="app__inner flex">
+
+
+
+
+							<div class="app__titles">
+								<h5>Delivery</h5>
+								<h1>Get free and fast delivery with our app</h1>
+								<p>We deliver from 9:00 to 24.00. You will receive hot pizza within 60 minutes after ordering or pizza for free</p>
+
+
+								
+								<div class="buttons__block flex">
+									<a href="#">
+									<div class="app__button1 flex">
+										<h1>app store</h1>
+										<img src="img/app-store-button.png" alt="">
+									</div>
+									</a>
+
+									<a href="#">
+										<div class="app__button2 flex">
+										<h1>google play</h1>
+										<img src="img/play-store-button.png" alt="">
+									</div>
+								</a>
+
+								</div>
+							</div>
+
+
+							<div class="app__phone"><img src="img/app-phone.png" alt=""></div>
+
+						</div>
+
+
+					</div>
+
+					<div class="app__pizza"><img src="img/app-pizza.png" alt=""></div>
+				
+				</div>
+				</section>
+
+
+
+
+				<footer class="footer">
+					<div class="footer__line"></div>
+					<div class="container">
+						<div class="footer__inner">
+							<div class="footer__contacts">
+								<div class="contacts__title">Contacts</div>
+								<h5>We work daili from 9.00 to 12.00</h5>
+								<h4>+1(792)74-44-44</h4>
+							</div>
+							<div class="footer__social">
+								<h1>pizzahub</h1>
+								<div class="social__block flex">
+									<a href="#"><img src="img/footer/instagram-logo.svg" alt=""></a>
+									<a href="#"><img src="img/footer/logo-2.svg" alt=""></a>
+								</div>
+								<h5>Policy privacy</h5>
+							</div>
+							<div class="footer__img">
+								<img src="img/footer/footer-img-1.png" alt="">
+								<img src="img/footer/footer-img-2.png" alt="">
+								<img src="img/footer/footer-img-3.png" alt="">
+							</div>
+						</div>
+					</div>
+				</footer>
+
+
+
+</div>
+
+
+			</body>
+			</html>
