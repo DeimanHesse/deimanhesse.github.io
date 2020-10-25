@@ -538,7 +538,7 @@ opacity: 1;
 .workprocess__items {
 display: flex;
 justify-content: space-around;
-
+flex-wrap: wrap;
 
 }
 
