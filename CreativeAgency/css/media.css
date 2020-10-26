@@ -1,163 +1,38 @@
 @media screen and (max-width: 900px){
 
-.about__text {
- width: 100%;
- text-align: center;
-  margin-bottom: 50px;
-  padding: 50px 30px;
-}
-
-.about__text p {
-  margin: 0 auto;
-  max-width: 585px;
 
 }
 
-.about__img {
- width: 100%
-}
+@media screen and (max-width: 900px){
 
-.about__content {
-flex-wrap: wrap;
-}
-
-.workprocess__items {
-  flex-wrap: wrap;
-}
+  
 }
 
 
-@media screen and (max-width: 720px){
-
-/*------------HEADER-------------------*/
+@media screen and (max-width: 991px){
 .nav {
-  display: none;
-}
-
-/*-----------------ABOUT US----------------*/
-.about__text p {
-  font-size: 24px;
-}
-/*-----------------SKILLS----------------*/
-.skills__text p {
-  font-size: 24px;
-}
-/*-----------------WORKS----------------*/
-.works__item {
-width: 50%;
-}
-
-.works__titles p {
-font-size: 24px;
-margin-bottom: 60px;
-}
-
-/*--------OUR WORK PROCESS--------*/
-.workprocess__titles p {
-
-}
-
-.item__titles h1 {
-
-text-align: center;
-}
-
-.item__titles p {
- 
+display: none;
+  
 }
 
 
+@media screen and (max-width: 767px){
 
-/*-----------CUSTOMERS ABOUT US--------------*/
-.customers__text_1 {
-font-size: 24px;
-}
-.customers__text_2 {
-font-size: 24px;
-}
-
-/*----------CONTACT US---------*/
-.contact__title p {
-font-size: 24px; 
-} 
-
-.form_inputs {
-flex-wrap: wrap;
-}
-
-.form_inputs-item {
-width: 100%;
-margin-bottom: 20px;
-}
-
-.form_inputs input {
-font-size: 20px;
-}
+  
 }
 
 
-
-@media screen and (max-width: 720px){
+@media screen and (max-width: 575px){
 
 .workprocess__item {
  width: 40%; 
 }
 
+.works__titles p {
+font-size: 20px;  
+}
+
 .stat__item {
   width: 35%;
-}
-
-
-.skills {
-  padding: 70px 5px 30px;
-}
-
-.item__suptitle {
-   font-size: 20px;
-   text-align: center;
-}
-
-.skills__text p {
-  text-align: left;
-  font-size: 14px;
-}
-
-}
-
-
-@media screen and (max-width: 500px){
-
-.about__inner {
-  padding: 30px 5px;
-}
-
-
-.about__text p {
-text-align: left;
-font-size: 20px;
-margin-bottom: 20px;
-}
-
-.about__title {
-margin-bottom: 20px;  
-}
-
-.item__number {
-  width: 100px;
-  height: 100px;
-  line-height: 93px;
-  font-size: 30px;
-}
-
-
-}
-
-
-
-@media screen and (max-width: 500px){
-
-.workprocess__item {
-margin: 5px;  
-}
-
+}  
 }
