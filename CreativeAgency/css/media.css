@@ -45,6 +45,11 @@ text-align: center;
   width: 90%;
   margin: 0 auto;
 }
+
+.contact__title p {
+margin-bottom: 30px;
+}
+
 .form_inputs-item {
    width: 100%;
    margin: 0 auto 10px;
