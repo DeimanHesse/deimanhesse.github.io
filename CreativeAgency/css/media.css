@@ -127,6 +127,20 @@ font-size: 20px;
 
 @media screen and (max-width: 500px){
 
+.about__inner {
+  padding: 30px 5px;
+}
+
+
+.about__text p {
+text-align: left;
+font-size: 20px;
+margin-bottom: 20px;
+}
+
+.about__title {
+margin-bottom: 20px;  
+}
 
 .item__number {
   width: 100px;
@@ -134,6 +148,8 @@ font-size: 20px;
   line-height: 93px;
   font-size: 30px;
 }
+
+
 }
 
 
@@ -143,6 +159,5 @@ font-size: 20px;
 .workprocess__item {
 margin: 5px;  
 }
-
 
 }
