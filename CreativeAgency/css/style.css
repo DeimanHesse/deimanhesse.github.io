@@ -807,7 +807,7 @@ margin-bottom: 40px;
 }
 
 .footer__nav {
-  width: 550px;
+ max-width: 550px;
 }
 
 .footer__nav a {

@@ -39,8 +39,11 @@ text-align: center;
 
 .form_inputs {
   flex-wrap: wrap;
+}
 
-
+.contact__title {
+  width: 90%;
+  margin: 0 auto;
 }
 .form_inputs-item {
    width: 100%;
@@ -48,13 +51,17 @@ text-align: center;
 }
 
 .contact__form form {
-  width: 70%;
+  width: 90%;
   margin: 0 auto;
 }
 
 .contact__textarea {
   margin-bottom: 30px;
 }
+
+/*--------------FOOTER---------------*/
+
+
 }
 
 
