@@ -776,10 +776,12 @@ margin-bottom: 40px;
   margin: 0 auto;
   color:#fff;
   text-transform: uppercase;
+    border-radius: 10%;
 }
 .contact__comment {
 }
 .contact__button {
+  border-radius: 20%;
 }
 
 
