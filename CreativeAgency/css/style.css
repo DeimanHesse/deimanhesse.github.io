@@ -30,10 +30,10 @@ html, body {
 
 
 .container {
-  
+  padding: 0 10px;
   max-width: 1110px;
   margin: 0 auto;
-  padding: 0 30px;
+  
 }
 
 .header {
@@ -337,6 +337,7 @@ opacity: 1;
 }
 
 .skills__text p {
+font-size: 18px;  
 color: #826ba9;
 margin-top: 35px;
 transform: translate(-120%, 0px);
@@ -404,7 +405,7 @@ margin: 0 auto;
 .item__suptitle {
 font-size: 20px;
 color: #fff;
-margin: 20px;
+
 text-align: center;
 }
 
@@ -452,7 +453,7 @@ opacity: 1;
 }
 
 .works__titles p {
-font-size: 14px;
+font-size: 18px;
 margin-bottom: 60px;
 transform: translate(-120%, 0px);
 opacity: 0;
@@ -583,7 +584,7 @@ opacity: 1;
 
 
 .workprocess__titles p {
-  font-size: 15px;
+  font-size: 18px;
   color: #fff;
   margin-top: 40px;
   margin-bottom: 100px;
@@ -632,7 +633,10 @@ transform: translate(0px, 0px);
 opacity: 1;
 }
 
+
+
 .customers__text_1 {
+font-size: 18px;  
 margin-bottom: 40px;
 transform: translate(-120%, 0px);
 opacity: 0;
@@ -646,6 +650,7 @@ opacity: 1;
 }
 
 .customers__text_2 {
+font-size: 18px;  
 margin-bottom: 30px;
 font-weight: 700;
 color: #826ba9;
@@ -726,10 +731,12 @@ opacity: 1;
 }
 
 .contact__title p {
-  font-weight: 500;
+font-weight: 500;
+font-size: 18px;
 }
+
 .contact__form form {
-  margin-bottom: 40px;
+margin-bottom: 40px;
  
 
 }
