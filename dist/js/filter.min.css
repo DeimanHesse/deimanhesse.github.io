@@ -1,0 +1,1 @@
+const filterBox=document.querySelectorAll(".box");document.querySelector(".examples-works__menu").addEventListener("click",e=>{if("LI"!==e.target.tagName)return!1;let t=e.target.dataset.f;filterBox.forEach(e=>{e.classList.remove("hide"),e.classList.contains(t)||"all"===t||e.classList.add("hide")})});
