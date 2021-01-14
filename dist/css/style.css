@@ -557,8 +557,9 @@ body {
 }
 
 .item-blog__data {
-  width: 80px;
+  min-width: 80px;
   height: 80px;
+  background: red;
   border: 2px solid #777777;
   margin-right: 30px;
   margin-bottom: 30px;
@@ -1034,6 +1035,25 @@ body {
 
   .examples-works__item {
     width: 45%;
+  }
+
+  .item-blog {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  .item-blog__img {
+    width: 80%;
+    margin: 0 auto 50px;
+  }
+
+  .item-blog__content {
+    width: 90%;
+  }
+
+  .brands__labels {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
 }
 
